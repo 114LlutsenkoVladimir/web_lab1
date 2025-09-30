@@ -1,0 +1,60 @@
+#gameResultsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+thead {
+    background-color: #004aad; /* насыщенный синий */
+    color: #fff;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* зебра — чётные строки */
+}
+
+tbody tr:hover {
+    background-color: #e3f2ff; /* подсветка при наведении */
+    transition: background-color 0.3s ease;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+td {
+    color: #333;
+}
+
+.hrefsWrapper {
+    display: flex;                  /* ссылки в одну линию */
+    justify-content: center;        /* по центру по горизонтали */
+    gap: 20px;                      /* расстояние между ссылками */
+    margin: 20px 0;
+}
+
+.hrefsWrapper a {
+    text-decoration: none;          /* убрать подчеркивание */
+    padding: 10px 20px;            /* внутренние отступы */
+    border: 2px solid #004aad;     /* рамка */
+    border-radius: 50px;           /* круглая форма */
+    color: #004aad;                /* цвет текста */
+    font-size: 18px;
+    transition: all 0.3s ease;     /* плавный переход */
+}
+
+.hrefsWrapper a:hover {
+    background-color: #004aad;     /* фон при наведении */
+    color: #fff;                   /* цвет текста при наведении */
+    transform: scale(1.05);       /* легкое увеличение */
+}
+
