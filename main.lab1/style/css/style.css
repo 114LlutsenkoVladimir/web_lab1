@@ -1,9 +1,19 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#teamImage {
+    border-radius: 20px;
+}
+
 #gameResultsTable {
     width: 100%;
     border-collapse: collapse;
     margin: 0 auto;
     font-size: 16px;
-    font-family: Arial, sans-serif;
 }
 
 thead {
@@ -27,7 +37,6 @@ tbody tr:hover {
 }
 
 th {
-    text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 
@@ -64,7 +73,6 @@ td {
     display: flex;
     flex-direction: column;       /* поля идут вертикально */
     gap: 15px;                    /* расстояние между элементами */
-    font-family: Arial, sans-serif;
 }
 
 /* Метки (label) */
@@ -109,5 +117,32 @@ td {
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+#teamTitleWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#teamLogo {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+}
+
+#teamName {
+    color: #004aad;
+    font-size: 120px;
+    font-weight: bold;
 }
 
