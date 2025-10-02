@@ -36,10 +36,6 @@ tbody tr:hover {
     transition: background-color 0.3s ease;
 }
 
-th {
-    letter-spacing: 0.05em;
-}
-
 td {
     color: #333;
 }
@@ -109,6 +105,7 @@ td {
 
 /* Кнопка отправки */
 #contactFormSubmitButton {
+    width: 430px;
     padding: 12px;
     font-size: 18px;
     background-color: #004aad;
@@ -129,8 +126,7 @@ td {
     align-items: center;
     flex-direction: row;
     column-gap: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 #teamLogo {
@@ -138,11 +134,39 @@ td {
     max-height: 200px;
     height: auto;
     width: auto;
+    margin: 0;
 }
 
 #teamName {
     color: #004aad;
     font-size: 120px;
     font-weight: bold;
+    margin: 0;
 }
+
+#tableTitle {
+    color: #004aad;
+    text-align: center;
+    font-size: 50px;
+}
+
+#tableTitleWrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#mascotImage {
+    width: 200px;
+    height: auto;
+}
+
+
+#contactFormSubmitButton:hover {
+    transform: scale(1.05);
+}
+
+
 
