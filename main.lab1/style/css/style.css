@@ -17,7 +17,7 @@ body {
 }
 
 thead {
-    background-color: #004aad; /* насыщенный синий */
+    background-color: #004aad;
     color: #fff;
 }
 
@@ -28,11 +28,11 @@ th, td {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f9f9f9; /* зебра — чётные строки */
+    background-color: #f9f9f9;
 }
 
 tbody tr:hover {
-    background-color: #e3f2ff; /* подсветка при наведении */
+    background-color: #e3f2ff;
     transition: background-color 0.3s ease;
 }
 
@@ -41,20 +41,20 @@ td {
 }
 
 .hrefsWrapper {
-    display: flex;                  /* ссылки в одну линию */
-    justify-content: center;        /* по центру по горизонтали */
-    gap: 20px;                      /* расстояние между ссылками */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     margin: 20px 0;
 }
 
 .hrefsWrapper a {
-    text-decoration: none;          /* убрать подчеркивание */
-    padding: 10px 20px;            /* внутренние отступы */
-    border: 2px solid #004aad;     /* рамка */
-    border-radius: 50px;           /* круглая форма */
-    color: #004aad;                /* цвет текста */
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #004aad;
+    border-radius: 50px;
+    color: #004aad;
     font-size: 18px;
-    transition: all 0.3s ease;     /* плавный переход */
+    transition: all 0.3s ease;
 }
 
 .hrefsWrapper a:hover {
@@ -65,45 +65,45 @@ td {
 
 #contactForm {
     width: 400px;
-    margin: 50px auto;            /* центрируем форму */
+    margin: 50px auto;
     display: flex;
-    flex-direction: column;       /* поля идут вертикально */
-    gap: 15px;                    /* расстояние между элементами */
+    flex-direction: column;
+    gap: 15px;
 }
 
-/* Метки (label) */
+
 #contactForm label {
     font-weight: bold;
     color: #333;
     margin-bottom: 5px;
 }
 
-/* Инпуты и textarea */
+
 #contactForm input,
 #contactForm textarea {
     width: 100%;
     padding: 10px 15px;
     font-size: 16px;
     border: 2px solid #ccc;
-    border-radius: 8px;          /* скруглённые углы */
-    outline: none;               /* убираем синий контур */
+    border-radius: 8px;
+    outline: none;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Фокус (когда поле активно) */
+
 #contactForm input:focus,
 #contactForm textarea:focus {
-    border-color: #004aad;      /* цвет рамки при фокусе */
-    box-shadow: 0 0 8px rgba(0, 74, 173, 0.3); /* лёгкое свечение */
+    border-color: #004aad;
+    box-shadow: 0 0 8px rgba(0, 74, 173, 0.3);
 }
 
-/* Текстовое поле */
+
 #contactForm textarea {
     min-height: 120px;
-    resize: vertical;           /* можно тянуть вниз */
+    resize: vertical;
 }
 
-/* Кнопка отправки */
+
 #contactFormSubmitButton {
     width: 430px;
     padding: 12px;
